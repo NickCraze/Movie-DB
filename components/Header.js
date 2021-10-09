@@ -13,7 +13,7 @@ import Flix from "./flix.png";
 function Header() {
   return (
     <header className="flex flex-col md:flex-row justify-between items-center m-2 p-5 h-auto ">
-      <div className="flex space-x-3 flex-grow items-center justify-evenly max-w-2xl p-4 border-4 border border-purple-50 bg-red-700 border-black ">
+      <div className="flex space-x-3 flex-grow items-center justify-evenly max-w-2xl p-4 border border-purple-50 bg-red-700 ">
         <HeaderItem title="HOME" Icon={HomeIcon} />
         <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
         <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
