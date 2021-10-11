@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import requests from "../utils/requests";
-useRouter
+
 
 function Nav() {
 
@@ -17,7 +17,7 @@ const router = useRouter();
             key={key}
             onClick = {()=> router.push(`/?genre=${key}`)     }
             className="last:pr-24 transition duration-100 transform
-                     hover:scale-125 cursor-pointer active:text-red-500 h-auto "
+                     hover:scale-125 cursor-pointer active:text-red-200 h-auto "
           >
             {title}
           </h2>
